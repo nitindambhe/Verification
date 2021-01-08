@@ -1,0 +1,43 @@
+[09-Mar-2020 04:42:01 UTC] PHP Notice:  Constant SUPER_DIMENSION already defined in /dataVolume/FindYourFit/sarika/application/config/constants.php on line 304
+[11-Mar-2020 06:24:01 UTC] PHP Fatal error:  Can't use function return value in write context in /dataVolume/FindYourFit/sarika/application/models/Mailer_model.php on line 120
+[23-Mar-2020 12:25:35 Europe/Berlin] PHP Notice:  Constant DIGITAL_MARKETING_PROFILE already defined in C:\xampp\htdocs\nitin\application\config\constants.php on line 303
+[26-Mar-2020 07:58:26 Europe/Berlin] PHP Fatal error:  Cannot use [] for reading in C:\xampp\htdocs\nitin\application\controllers\Company_filter.php on line 1177
+[09-Apr-2020 08:41:29 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\xampp\htdocs\nitin\application\controllers\Company_filter.php on line 3462
+[09-Apr-2020 08:41:40 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\xampp\htdocs\nitin\application\controllers\Company_filter.php on line 3462
+[20-Apr-2020 12:49:01 Europe/Berlin] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\xampp\htdocs\nitin\application\controllers\Company_filter.php on line 1165
+[20-Apr-2020 13:08:18 Europe/Berlin] PHP Fatal error:  Cannot use [] for reading in C:\xampp\htdocs\nitin\application\controllers\Company_filter.php on line 1167
+[20-Apr-2020 13:08:23 Europe/Berlin] PHP Fatal error:  Cannot use [] for reading in C:\xampp\htdocs\nitin\application\controllers\Company_filter.php on line 1167
+[28-Jun-2020 09:35:58 Asia/Kolkata] PHP Fatal error:  Uncaught PHPExcel_Exception: Maximum 31 characters allowed in sheet title. in C:\xampp\htdocs\nitin\application\libraries\PHPExcel\PHPExcel\Worksheet.php:456
+Stack trace:
+#0 C:\xampp\htdocs\nitin\application\libraries\PHPExcel\PHPExcel\Worksheet.php(828): PHPExcel_Worksheet::checkSheetTitle('Student_questio...')
+#1 C:\xampp\htdocs\nitin\application\controllers\Candidate_filter.php(674): PHPExcel_Worksheet->setTitle('Student_questio...')
+#2 C:\xampp\htdocs\nitin\system\core\CodeIgniter.php(532): Candidate_filter->TM_download_student_Question_excel()
+#3 C:\xampp\htdocs\nitin\index.php(292): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\nitin\application\libraries\PHPExcel\PHPExcel\Worksheet.php on line 456
+[29-Jun-2020 11:10:10 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Create_test_model::getAttemptedTestType() in C:\xampp\htdocs\nitin\application\models\Create_test_model.php on line 1132
+[29-Jun-2020 11:10:54 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Create_test_model::getAttemptedTestType() in C:\xampp\htdocs\nitin\application\models\Create_test_model.php on line 1132
+[29-Jun-2020 11:55:06 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to JpGraphException::defaultHandler() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\nitin\application\libraries\JpGraph\jpgraph_errhandler.inc.php:158
+Stack trace:
+#0 [internal function]: JpGraphException::defaultHandler(Object(Error))
+#1 {main}
+  thrown in C:\xampp\htdocs\nitin\application\libraries\JpGraph\jpgraph_errhandler.inc.php on line 158
+[29-Jun-2020 11:55:32 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to JpGraphException::defaultHandler() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\nitin\application\libraries\JpGraph\jpgraph_errhandler.inc.php:158
+Stack trace:
+#0 [internal function]: JpGraphException::defaultHandler(Object(Error))
+#1 {main}
+  thrown in C:\xampp\htdocs\nitin\application\libraries\JpGraph\jpgraph_errhandler.inc.php on line 158
+[29-Jun-2020 12:06:45 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to JpGraphException::defaultHandler() must be an instance of Exception, instance of Error given in C:\xampp\htdocs\nitin\application\libraries\JpGraph\jpgraph_errhandler.inc.php:158
+Stack trace:
+#0 [internal function]: JpGraphException::defaultHandler(Object(Error))
+#1 {main}
+  thrown in C:\xampp\htdocs\nitin\application\libraries\JpGraph\jpgraph_errhandler.inc.php on line 158
+[07-Jan-2021 17:10:16 Europe/Berlin] PHP Fatal error:  Class 'MY_Controller' not found in C:\xampp\htdocs\Demo\application\controllers\Login.php on line 5
+[07-Jan-2021 17:10:16 Europe/Berlin] PHP Warning:  include(C:\xampp\htdocs\Demo\application\views\errors\html\error_php.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Demo\system\core\Exceptions.php on line 268
+[07-Jan-2021 17:10:16 Europe/Berlin] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Demo\application\views\errors\html\error_php.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Demo\system\core\Exceptions.php on line 268
+[07-Jan-2021 17:10:16 Europe/Berlin] PHP Warning:  include(C:\xampp\htdocs\Demo\application\views\errors\html\error_php.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Demo\system\core\Exceptions.php on line 268
+[07-Jan-2021 17:10:16 Europe/Berlin] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Demo\application\views\errors\html\error_php.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Demo\system\core\Exceptions.php on line 268
+[07-Jan-2021 17:11:51 Europe/Berlin] PHP Warning:  include(C:\xampp\htdocs\Demo\application\views\errors\html\error_php.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Demo\system\core\Exceptions.php on line 268
+[07-Jan-2021 17:11:52 Europe/Berlin] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Demo\application\views\errors\html\error_php.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Demo\system\core\Exceptions.php on line 268
+[07-Jan-2021 17:11:52 Europe/Berlin] PHP Warning:  include(C:\xampp\htdocs\Demo\application\views\errors\html\error_php.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Demo\system\core\Exceptions.php on line 268
+[07-Jan-2021 17:11:52 Europe/Berlin] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Demo\application\views\errors\html\error_php.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Demo\system\core\Exceptions.php on line 268

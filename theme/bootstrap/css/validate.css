@@ -1,0 +1,23 @@
+.ErrorField{
+			border-color: #e62d00 !important; 
+			background: #FFFFFE; font-size:13px;}
+span.ErrorField{color: #e62d00;}
+span.ValidationErrors{
+	display: inline-block;
+	font-size: 12px;color: #e62d00;/*padding-left: 10px;*/
+	font-style: italic;}
+	
+span.mandatory	{
+	color:#e62d00;
+
+}
+.error{
+border-color: #e62d00; 
+background: #FFFFFE; font-size:13px;
+} 
+
+label.error{
+color: #e62d00;}	
+	
+	
+	

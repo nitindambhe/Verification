@@ -1,0 +1,6 @@
+{
+    "require": {
+
+        "quickemailverification/quickemailverification": "*"
+    }
+}
